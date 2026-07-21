@@ -9,7 +9,7 @@ int main(){
     scanf("%lf", &num2);
     char operator;
     printf("Enter the arithmetic symbol [+,-,*,/]: ");
-    scanf(" %c", &operator);
+   scanf(" %c", &operator);
     double result;
     if (operator == '+'){
         result = num1 + num2;
